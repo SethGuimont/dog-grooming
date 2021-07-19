@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, render_template
 # from flask_mail import Mail, Message
-import tweepy
+#import tweepy
 
 app = Flask(__name__)
 
@@ -10,18 +10,6 @@ app = Flask(__name__)
 #tapi = tweepy.API(auth)
 #for tweet in public_tweets:
     #print(tweet.text).first()
-
-# mail = Mail(app)  # instantiate the mail class
-
-# configuration of mail
-'''
-app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'tocome@gmail.com'
-app.config['MAIL_PASSWORD'] = '***'
-app.config['MAIL_USE_TLS'] = False
-app.config['MAIL_USE_SSL'] = True
-'''
 
 
 @app.route('/')

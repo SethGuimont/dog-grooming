@@ -44,7 +44,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="{{ url_for('index') }}">Sunflower Dog Grooming</a>
+					<a class="navbar-brand" href="{{ url_for('index') }}">Sunflower Dogs Grooming</a>
 				</div> <!-- /.navbar-header -->
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -82,59 +82,47 @@
 	                <p class="contact">
 	                    5238 6th St N <br>
 	                    Minneapolis, MN
+						55430
 	                </p>
 	            </div>
 	            <div class="col-md-3 contact-item col-sm-6 col-xs-12">
 	                <i class="ion-ios-telephone"></i>
 	                <h3>Phone</h3>
 	                <p class="contact">
-	                    Local: 1-200-123-hello <br>
-	                    Mobile: 2-800-123-hello
+	                    Mobile: 763-250-3784
 	                </p>
 	            </div>
 	            <div class="col-md-3 contact-item col-sm-6 col-xs-12">
 	                <i class="ion-printer"></i>
-	                <h3>Fax</h3>
+	                <h3>Forms</h3>
 	                <p class="contact">
-	                    Office: 2148-287-8300 <br>
-	                    Home: 2528-782-8200
+	                     <a href="static/forms/pricesheet.pdf" download>Price Sheet</a>
+						<br><a href="static/forms/grooming-agreement.pdf" download>Grooming Agreement</a>
+
+
 	                </p>
 	            </div>
 	            <div class="col-md-3 contact-item col-sm-6 col-xs-12">
 	                <i class="ion-ios-email"></i>
 	                <h3>Email Address</h3>
 	                <p class="contact">
-	                    <a href="mailto:admin@sunflowerdoggrooming.com">admin@sunflowerdoggrooming.com</a> <br>
-	                    <a href="www.themewagon.com">www.themewagon.com</a>
+	                    <a href="mailto:sunflowerdogsgrooming@gmail.com">sunflowerdogsgrooming@gmail.com</a>
 	                </p>
 	            </div>
 
 
 	        </div> <!-- /.row -->
-	        <form action = "http://localhost:5000/result" method = "POST" class="row form">
-                <h3>Leave A Message</h3>
-                <div class="col-sm-4 col-xs-12 form-group">
-                    <label class="sr-only">Name</label>
-                    <input name="name" class="form-control" type="text" placeholder="First Name">
-                </div> <!-- /.form-group -->
-                <div class="col-sm-4 col-xs-12 form-group">
-                    <label class="sr-only">Email</label>
-                    <input name="email" class="form-control" type="email" placeholder="Email address">
-                </div> <!-- /.form-group -->
-                <div class="col-sm-4 col-xs-12 form-group">
-                    <label class="sr-only">Website</label>
-                    <input name="website" class="form-control" type="text" placeholder="Your website">
-                </div> <!-- /.form-group -->
-                <div class="row">
-                    <div class="col-md-12 col-xs-12 form-group">
-                        <label class="sr-only">Message</label>
-                        <textarea class="message form-control" placeholder="Write message"></textarea>
-                    </div> <!-- /.form-group -->
-                    <input class="btn btn-sub" type="submit" value="Send Message">
-                </div>
-            </form> <!-- /.row -->
+
 		</div> <!-- /.container -->
 	</section> <!-- /.contact -->
+
+
+	<span class="img-container">
+		<img src="static/images/sunback.png">
+	</span>
+
+
+
 
 
 
@@ -161,16 +149,11 @@
 								<i class="ion-social-twitter"></i>
 							</div>
 						</a>
-						<a href="#">
-							<div class="icon rss">
-								<i class="ion-social-rss"></i>
-							</div>
-						</a>
 					</div>		
 				</div>
 				<div class="col-sm-4 text-right">
 					<div class="copy">
-						Theme by <a href="http://www.themewagon.com">themewagon.com</a>. All Rights Reserved
+						Site created by Seth Guimont. All Rights Reserved
 					</div>
 				</div>
 			</div> <!-- /.row -->
